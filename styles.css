@@ -1,0 +1,88 @@
+body{
+    background-color: rgb(238, 238, 238);
+    font-family: Helvetica, sans-serif;
+    margin: 1.5rem;
+}
+
+.hero-title{
+    text-transform: capitalize;
+    text-align: center;
+    font-size: 2.5rem;
+    font-weight: bold;
+}
+p{
+    font-size: 1.2rem;
+    text-align: center;
+}
+
+.img-container{
+    margin: 0 auto;
+    background-color: white;
+    padding: 1.5rem .5rem;
+    /* position: absolute; */
+}
+.hero-img{
+    display: block;
+    margin: 0 auto;
+     /* width: 90vw;  */
+     max-width: 100%; 
+     height: auto; 
+    /* position: relative;; */
+}
+.img-container p{
+    margin-top: 1.3rem;
+    text-align: center;
+    font-size: 1.2rem;
+    line-height: 1.9rem;
+    text-decoration: none;
+}
+h4{
+    text-align: center;
+    display: block;
+    margin: 3rem 0;
+    font-size: 1.3rem;
+}
+span{
+    font-weight: bold;
+}
+.content-section{
+   /* margin: 0 auto; */
+}
+.content-section{
+    display: block;
+    /* border: 2px solid red; */
+    margin: 0 auto;
+    padding: 0 2rem;
+    max-width: 550px;
+    
+}
+
+.time-line li{
+    list-style-type: disc;
+    /* display: block; */
+    /* margin: 0 auto; */
+    line-height: 1.5rem;
+    padding: .5rem;
+    font-size: 1rem;
+    font-weight: normal;
+    /* width: 30vw; */
+}
+.quote{
+    display: block;
+    text-align: left;
+    font-style: italic;
+    font-size: 1rem;
+    line-height: 1.5rem;
+    margin: 2.3rem 0;
+}
+cite{
+    font-style: italic;
+}
+cite::before{
+    content: "--";
+}
+.footnote{
+    display: block;
+    margin: 2.5rem;
+    font-weight: bold;
+}
